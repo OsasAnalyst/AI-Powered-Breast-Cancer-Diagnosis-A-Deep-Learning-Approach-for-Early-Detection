@@ -227,6 +227,9 @@ else:
     print("The tumor is Benign")
 ```
 
+![Result](https://github.com/user-attachments/assets/69a84cf2-099b-4190-b528-9acd37b76536)
+
+
 ### **Interpretation of Results**
 
 - If **prediction = 0**, the tumor is **malignant (cancerous)**.
