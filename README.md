@@ -155,7 +155,7 @@ history = model.fit(X_train_std, Y_train, validation_split=0.1, epochs=10)
 
 ### **Performance Metrics**
 
-To assess the model’s performance, i use:
+To assess the model’s performance, i used:
 
 - **Accuracy**: Measures the proportion of correct predictions.
 - **Loss Function (Sparse Categorical Crossentropy)**: Evaluates how well the model’s predictions match the actual labels.
@@ -167,8 +167,7 @@ loss, accuracy = model.evaluate(X_test_std, Y_test)
 print(f"Test Accuracy: {accuracy:.4f}")
 ```
 
-![Model Accuracy](https://github.com/user-attachments/assets/771b91c6-341a-4b40-964e-cca2fb79a0ed)
-
+![Result 2](https://github.com/user-attachments/assets/00bbccb3-c612-4b19-bbeb-e1a91101d803)
 
 ### **Training vs Validation Loss**
 
